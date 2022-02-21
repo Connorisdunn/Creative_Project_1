@@ -3,6 +3,12 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.joke{
+  color: #3499cb;
+  text-align: center;
+  font-weight: bold;
+  text-decoration-style: wavy;
+}
 .cover_text{
   position: absolute;
   display: flex;
