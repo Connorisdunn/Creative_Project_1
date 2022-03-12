@@ -3,6 +3,41 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+
+#glass{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  float: left !important;
+}
+#below{
+  display: flex !important;
+  float: left !important;
+  padding: 15px !important;
+}
+#image{
+  width: 100% !important;
+  object-fit: cover !important;
+  height: 100% !important;
+  width: 100% !important;
+  float: left !important;
+}
+#button{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  float: right !important;
+}
+#button:active{
+  transform: scale(0.90) !important;
+}
+#button:hover{
+  background-color: #3499cb !important;
+}
+
+
+
 .joke{
   color: #3499cb;
   text-align: center;
